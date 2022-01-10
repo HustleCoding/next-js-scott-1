@@ -11,9 +11,14 @@
     "next": "^9.5.0",
     "next-connect": "^0.8.1",
     "next-env": "^1.1.1",
+    "prettier": "^2.5.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "theme-ui": "^0.3.1"
   },
-  "devDependencies": {}
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  }
 }
